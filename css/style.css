@@ -164,6 +164,11 @@ section#third .bottom .inner .item .img:nth-of-type(2) {
   display: none;
 }
 
+section#third .bottom .inner .item .img:nth-of-type(3) {
+  background-image: url("../img/section3/FlexCucCapture.png");
+  display: none;
+}
+
 section .left {
   width: 40%;
   float: left;

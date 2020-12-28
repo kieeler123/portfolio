@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        function fac(num){
+            var end_num = 1;
+            if(num==end_num){return num;}
+            else return num*fac(num-1);
+        }
+        document.write(fac(3));
+
+        function re(n){
+            var res = 1;
+            for(var i=n; i>=1; i--){
+                res*=i;
+            }
+            return res;
+        }
+        document.write(re(3));
+
+        function fact(s){
+            var i=1;
+            if(s==1){return s}
+            return s*=fact(s-1);
+        }
+        document.write(fact(3));
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

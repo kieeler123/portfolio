@@ -121,6 +121,10 @@ section{
                             background-image: url('../img/section3/HuxleyCapture.png');
                             display: none;
                         }
+                        &:nth-of-type(3){
+                            background-image: url('../img/section3/FlexCucCapture.png');
+                            display: none;
+                        }
                     }
                 }
             }

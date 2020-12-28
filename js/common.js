@@ -1,6 +1,6 @@
 $(function(){
     /*메뉴바 상단고정*/
-      var timer;
+      // var timer;
         $(".logo>h1").animate({marginTop:"6px"},1400, "swing");
         $(".h1Hide>h1").animate({marginTop:"0px"},1400, "swing");
         $(".h2Hide>h2").animate({marginTop:"0px"},1400, "swing");
@@ -48,11 +48,17 @@ $(function(){
         $("#third a").hover(function(){
           console.log($(this).index());
           if($(this).index()==1){
+            $(".img:nth-of-type(3)").fadeOut();
             $(".img:nth-of-type(2)").fadeOut();
             $(".img:nth-of-type(1)").fadeIn();
           }else if($(this).index()==2){
+            $(".img:nth-of-type(3)").fadeOut();
             $(".img:nth-of-type(1)").fadeOut();
             $(".img:nth-of-type(2)").fadeIn();      
+          }else if($(this).index()==3){
+            $(".img:nth-of-type(2)").fadeOut();
+            $(".img:nth-of-type(1)").fadeOut();
+            $(".img:nth-of-type(3)").fadeIn();      
           }
         })
   
