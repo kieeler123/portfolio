@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/common.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <div class="logo"><h1><a href="#zero">{{logoText}}</a></h1></div>
+      <nav id="zero">
+        <div class="h1Hide">
+          <h1>Hello javascript</h1>
+        </div>
+        <div class="h2Hide">
+          <h2>My portfolio Area</h2>
+        </div>
+      </nav>
+      <header>
+        <ul>
+          <li v-for="list in mainMenu"><a v-bind:href="list.href">{{list.text}}</a></li>
+        </ul>
+      </header>
+      <main id="wrap_sec">
+        <section id="first">
+          <div class="left">
+            <h1>About</h1>
+            <div class="img"></div>
+          </div>
+          <div class="right">
+            <div class="inner">
+              <h4>profile</h4>
+              <div class="ani ani1"></div>
+              <p>장준걸<br>
+              1991.09.10<br>
+              77, Wolseong-ro, Dalseo-gu, Daegu<br>
+              계명문화대학교 디지털컨텐츠과 졸업<br></p>
+    
+              <p># Strengths# Strengths
+    
+                IT 배움에는 끝이 없다고, UI/UX 엔지니어링 강의 수료로 실무경험도 했습니다.<br>
+                그저 회사 업무로만 생각하지 않고 배우며 저와 회사를 같이 성장시키는 그런 사원이 되겠습니다.<br>
+                # Weaknesses<br>
+    
+                꼼꼼함이 약점이지만 저를 더 단단하게 만드는 과정이라고 생각합니다.<br>
+                책임진 일을 꼼꼼하고 완벽하게 하려해 주위에서 걱정을 하곤 했습니다.<br>
+                하지만 그 일을 마친 후 성취감으로 인해 더 전진할 수 있게 되었습니다.<br>
+                # Opportunities<br>
+    
+                제가 좋은 사원이 되기 위한 기회라고 생각합니다.<br>
+                때를 놓치지 않고 제 역량을 모두 발휘해, 넘어져도 털고 일어나서 달려가겠습니다.<br>
+                # Threats<br>
+    
+                때론 어떤 위협이 와도 흔들리지 않고 외유내강인 모습으로 단단하게 그 자리를 지키겠습니다.<br>
+                묵직하고 신뢰감 있는 그런 사원이 되겠습니다.<br><br></p>
+            </div>
+            <div class="inner">
+              <h4>Career</h4>
+              <div class="ani ani2"></div>
+              <p>유세스파트너스 - LG 자회사
+    
+                웹퍼블리셔로 들어가 계약한 회사의 홈페이지를 만들어주는 업무를 했습니다.<br>
+                그 외로 계약서 담당, 거래처 PM, 마감, 경리 등 여러가지 업무를 담당했습니다.<br>
+                정직원으로 채용될 예정이었지만 부서가 없어지면서 권고사직으로 퇴사를 하였습니다.<br>
+                투맥 인디고<br>
+    
+                같이 일했던 이사님 소개로 면접을 보고 홈페이지 관리자로 들어가게 되었습니다.<br>
+                온라인 사업이 처음인 회사라 처음부터 끝까지 작업하였고, 블로그, 인스타 등 SNS 바이럴마케팅 업무,<br>
+                네이버 키워드 광고, 지하철 광고 등 여러가지 광고 업무를 맡아서 했고 인디고 경리 업무 등 다양한 업무를 경험했습니다.<br>
+                유시스트<br>
+    
+                웹 퍼블리셔로써 많은 작업을 하고 경력을 쌓은 곳입니다.<br>
+                git, 소스트리를 사용해 작업을 했고 vue를 이용해 만듦으로써 개발자간의 소통을 배울 수 있었습니다.<br>
+                자사홈페이지 뿐 아니라 외주작업도 하였고 여러가지 작업을 통해 기술을 늘려갈 수 있었습니다.<br></p>
+            </div>
+        </section>
+        <section id="second">
+          <div class="left">
+            <h1>Skills</h1>
+          </div>
+          <div class="bottom">
+            <div class="inner">
+              <h4>MySkills</h4>
+              <div class="ani ani2"></div>
+              <div class="item">
+                <h2>HTML</h2>
+                <svg width="160" height="160" xmlns="http://www.w3.org/2000/svg">
+                 <g>
+                  <title>Layer 1</title>
+                  <circle class="circle_animation" r="69.85699" cy="81" cx="81" stroke-width="8" stroke="#6fdb6f" fill="none"/>
+                 </g>
+                </svg>
+              </div>
+              <div class="item">
+              <h2>CSS</h2>
+                <svg width="160" height="160" xmlns="http://www.w3.org/2000/svg">
+                  <g>
+                    <title>Layer 1</title>
+                    <circle class="circle_animation" r="69.85699" cy="81" cx="81" stroke-width="8" stroke="#69aff4" fill="none"/>
+                   </g>
+                </svg>
+            </div>
+            <div class="item">
+              <h2>JQUERY</h2>
+                <svg width="160" height="160" xmlns="http://www.w3.org/2000/svg">
+                  <g>
+                    <title>Layer 1</title>
+                    <circle class="circle_animation" r="69.85699" cy="81" cx="81" stroke-width="8" stroke="#40d9ff" fill="none"/>
+                   </g>
+                </svg>
+            </div>
+            <div class="item">
+              <h2>SASS</h2>
+              <svg width="160" height="160" xmlns="http://www.w3.org/2000/svg">
+                <g>
+                 <title>Layer 1</title>
+                 <circle class="circle_animation" r="69.85699" cy="81" cx="81" stroke-width="8" stroke="#1703fc" fill="none"/>
+                </g>
+               </svg>
+            </div>
+          </div>
+        </section>
+        <section id="third">
+          <div class="left">
+            <h1>Portfolio</h1>
+            <a>A Book apart</a>
+            <a>Huxley</a>
+          </div>
+          <div class="bottom">
+            <div class="inner">
+              <h4>Career</h4>
+              <div class="item">
+                <div class="img"></div>
+                <div class="img"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+    <script>
+      var app = new Vue({
+      el:'#app',
+      data:{
+        logoText:'MyPortfolio',
+        'mainMenu':[
+          {text:'My Profile',href:'#first'},
+          {text:'Skill',href:'#second'},
+          {text:'Portfolio',href:'#third'},
+          {text:'Rendering',href:'#fourth'}
+          ]
+        }
+      })
+   </script>
+  </body>
+</html>
